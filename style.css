@@ -27,6 +27,15 @@ body {
   font-weight: bold;
 }
 
+/* ===== Profile Picture Styling ===== */
+.profile-img {
+  width: 150px; /* Adjust the size of the image */
+  height: 150px; /* Make sure it's a square */
+  border-radius: 50%; /* This makes it a circle */
+  object-fit: cover; /* Ensure the image fits the container without distortion */
+  margin-bottom: 20px; /* Add space below the image */
+}
+
 /* ===== Section Headings ===== */
 section h2 {
   color: #2c3e50;
