@@ -5,14 +5,20 @@
   box-sizing: border-box;
 }
 
-/* ===== Global Styles ===== */
+/* Global Styles */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Times New Roman', Times, serif;  /* Body text */
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
   padding: 0 20px;
 }
+
+/* Headings Styles */
+h1, h2, h3 {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;  /* Serif font for headings */
+}
+
 
 /* ===== Hero Section ===== */
 .hero {
